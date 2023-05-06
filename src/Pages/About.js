@@ -6,6 +6,7 @@ const About = () => {
     return (
         <>
             <h1>HI</h1>
+            <a href='/policy'>policy</a>
             <div
                 className="justify-self-center xs:block md:block lg:block xs:col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-4 w-[300px] md:w-[300px] lg:w-[418px] p-2 md:px-[59px] md:py-[41.5px] lg:border-0.5 h-[333px]">
                 <div className="bg-gray-200 h-full md:h-[250px] md:w-[300px]">
