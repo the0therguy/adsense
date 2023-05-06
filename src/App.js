@@ -6,12 +6,12 @@ import Policy from "./Pages/Policy";
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<About/>}/>
-                    <Route path="/policy" element={<Policy/>}/>
-                </Routes>
-            </BrowserRouter>
+                <BrowserRouter>
+                    <Routes>
+                        <Route path="/" element={<About/>}/>
+                        <Route path="/policy" element={<Policy/>}/>
+                    </Routes>
+                </BrowserRouter>
         </div>
     );
 }
